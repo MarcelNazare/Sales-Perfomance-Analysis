@@ -1,0 +1,12 @@
+[project]
+name = "sales-perfomance-analysis"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "dotenv>=0.9.9",
+    "pandas>=2.3.2",
+    "polars>=1.33.1",
+    "psycopg2>=2.9.10",
+]
