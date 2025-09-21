@@ -99,4 +99,4 @@ FROM superstore_staging;
 DROP TABLE superstore_staging;
 
 
-SELECT * FROM superstore LIMIT 10;
+SELECT * FROM superstore LIMIT 100;
