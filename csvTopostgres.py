@@ -2,6 +2,7 @@ import os
 from dotenv import load_dotenv
 import psycopg2
 import csv
+import datetime
 
 load_dotenv()
 db_name = os.getenv("db_name")
@@ -12,8 +13,8 @@ port = os.getenv("port")
 
 
 
-csv_filename = 'Data/Superstore.csv'
-table_name = 'sales'
+csv_filename = f'Data/processeced/Superstore-{datetime.now().strftime("%Y_%m_%d_%H_%M_%S")}.csv'
+table_name = f'superstore_data-{datetime.now().strftime("%Y_%m_%d_%H_%M_%S")}'
 
 def csv_to_postgres():
     try:
