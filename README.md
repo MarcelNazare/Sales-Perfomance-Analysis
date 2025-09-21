@@ -221,10 +221,6 @@ jupyter notebook notebooks/01_data_exploration.ipynb
 
 ---
 
-## 🤝 Contributing
-
-We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.md) for details.
-
 ### Development Workflow
 1. Fork the repository
 2. Create feature branch (`git checkout -b feature/amazing-analysis`)
@@ -245,9 +241,9 @@ We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.
 
 ## 📞 Contact & Support
 
-**Project Maintainer**: [Your Name](mailto:your.email@example.com)
+**Project Maintainer**: [Your Name](mailto:your.realmarcelnazare@example.com)
 **LinkedIn**: [Your LinkedIn Profile](https://linkedin.com/in/yourprofile)
-**Project Repository**: [GitHub Link](https://github.com/username/sales-performance-analysis)
+**Project Repository**: [GitHub Link](https://github.com/MarcelNazare/sales-performance-analysis)
 
 ---
 
