@@ -1,15 +1,9 @@
-import os
-from dotenv import load_dotenv
+from env_init import *
 import psycopg2
 import csv
 import datetime
 
-load_dotenv()
-db_name = os.getenv("db_name")
-user = os.getenv("user")
-password = os.getenv("password")
-host= os.getenv("host")
-port = os.getenv("port")
+
 
 
 
